@@ -1,0 +1,99 @@
+version: "2.0"
+nlu:
+- intent: what_is
+  examples: |
+    - Who is [Andrew Jackson](subject)?
+    - what does [parliamentarian](subject) do
+    - what does a [detective](subject) do
+    - what do [super computer](subject) do
+    - what do [ants](subject) do?
+    - what did [George Washington](subject) do
+    - what does [organization](subject) mean
+    - what does word [xinafoate](subject) mean
+    - what does [parliamentarian](subject) mean
+    - [dominating](subject) means
+    - [CUDA](subject) means?
+    - [NAFTA](subject) mean?
+    - who is [cliff the big red dog](subject)?
+    - who is [bill gates](subject)
+    - who is [John Liew](subject)
+    - who is [Robert Krail](subject)
+    - who was [John Lennon](subject)
+    - who is [Mary Jane](subject)
+    - who is [Cliff Asness](subject)
+    - who are [Polypaths](subject)?
+    - who was [John Galt](subject)
+    - when was [Thomas Edison](subject) born?
+    - where is [great wall](subject)?
+    - where is [new york](subject)
+    - where is [germany](subject)
+    - where is [connecticut](subject)
+    - where is [jordan](subject)
+    - where is [taipei, taiwan](subject)
+    - where is [Bonne Germany](subject)
+    - where is [self destruction](subject)?
+    - when [was world war II](subject)?
+    - what is [night vision](subject)?
+    - whats is [double vision](subject)?
+    - what is [calculus](subject)
+    - define [partial duration](subject)
+    - whats is [option adjusted spread](subject)?
+    - what is [python language](subject)
+    - what is [apple computer](subject)
+    - what is a [machine gun](subject)
+    - what is a [soft bot](subject)
+    - define [happiness](subject)
+    - what is [bill of rights](subject)
+    - define [generation](subject)
+    - define [generational wealth gap](subject)
+    - define [self importance](subject)
+    - what is [gravity pull](subject)
+    - what is [infinite loop](subject)
+    - what is an [ivy league school](subject)
+    - what is [machine learning](subject)
+    - what is [wikipedia](subject)
+    - what are [ivy league colleges](subject)
+    - what are [neural networks](subject)
+    - what is [pair coding](subject)
+    - what is [early admission](subject)
+    - what is [need blind](subject)
+    - what is [legally blond](subject)
+    - what is [chinese](subject)
+    - what is [hurricane](subject)
+    - what is [currency manipulation](subject)
+    - what is a [hedge fund](subject)
+    - what is a [car](subject)
+    - what us a [hard reset](subject)?
+    - what is a [trust fund](subject)?
+    - what are [trust fund kids](subject)
+    - more on [mutual fund](subject)
+    - more on [rocket science](subject)
+    - tell me more about [wall street](subject)
+    - what are [canadian geese](subject)?
+    - what are [Russian dolls](subject)?
+    - what is [microchip](subject)
+    - define [ivy league](subject)
+    - define [inspiration](subject)
+    - define [parliamentarian](subject)
+    - can you define [cell](subject) please
+    - please define [filibuster](subject)
+    - what is the meaning of [minority](subject)
+    - please define [dominating](subject)
+    - what is a [pipeline](subject)
+    - tell me more about [robotics](subject)
+    - I want to learn [programming](subject)
+    - I want to learn more about [dynamic programming](subject)
+    - how can I learn more about [coding](subject)
+    - can I learn [chemistry](subject)
+    - I want to know more about [chemistry](subject)
+    - more about [python](subject) please?
+    - tell me about [deep learning](subject)
+    - tell me about [new yok city](subject)
+    - what is [killing a mocking bird](subject)
+    - what does [throwing rock in a glass house](subject) mean?
+    - what does glass half full mean?
+    - what is [hemisphere](subject)?
+    - when is [summer solstice](subject)?
+    - when is [summer solace](subject)?
+    - what is [FBI](subject)?
+    - what is [AI](subject)?

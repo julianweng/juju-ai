@@ -1,0 +1,53 @@
+version: "2.0"
+rules:
+- rule: query path
+  steps:
+  - intent: what_is
+  - slot_was_set:
+    - subject
+  - action: action_wiki
+- rule: help
+  steps:
+  - intent: help
+  - action: utter_help
+- rule: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_howcanihelp
+- rule: Say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+- rule: answer out of scope
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+- rule: respond to chitchat
+  steps:
+  - intent: chitchat
+  - action: utter_chitchat
+- rule: respond to faq
+  steps:
+  - intent: faq
+  - action: utter_faq
+- rule: respond to weather
+  steps:
+  - intent: weather
+  - action: action_weather
+- rule: respond to tell a joke
+  steps:
+  - intent: telljoke
+  - action: action_joke
+- rule: respond to inspire
+  steps:
+  - intent: inspire_me
+  - action: action_inspire
+- rule: respond to ask time
+  steps:
+  - intent: asktime
+  - action: action_telltime
+- rule: Ask the user to rephrase whenever a message has low NLU confidence
+  steps:
+  - intent: nlu_fallback
+  - action: utter_default

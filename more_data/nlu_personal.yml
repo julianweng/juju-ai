@@ -1,0 +1,31 @@
+version: "2.0"
+nlu:
+- intent: chitchat/polypaths
+  examples: |
+    - what does Polypaths do
+    - who is Polypaths?
+    - what are polypaths good at?
+    - what products does polypaths made?
+    - who founded Polypaths?
+    - Who is the CEO of Polypaths?
+    - What is Polypaths?
+    - Tell me more about Polypaths?
+- intent: chitchat/julianweng
+  examples: |
+    - who is Julian?
+    - who is Julian Weng
+    - what does Julian do
+    - who made you?
+    - who trained you?
+    - Who is your creator?
+    - How old is Julian?
+    - Tell me more about Julian Weng?
+responses:
+  utter_chitchat/polypaths:
+  - text: Polypaths is the best company in the world.
+  - text: Polypaths rocks!
+  - text: Polypaths makes the best software in the world.
+  utter_chitchat/julianweng:
+  - text: Julian is the best 17-year-old in the world.
+  - text: Julian rocks!
+  - text: visit Julian Weng's website.

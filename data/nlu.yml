@@ -1,0 +1,151 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - how are you
+    - how do you do?
+    - how's going
+    - evening
+    - morning
+    - hey there
+    - let's go
+    - hey dude
+    - good morning
+    - good evening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - 99
+    - not really bye
+    - no bye bye
+    - nothing bye
+    - night night
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - exactly
+    - sure
+    - ok
+    - cool
+    - okey
+    - yep
+    - yeah
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: help
+  examples: |
+    - what can you do?
+    - what's next?
+    - what things can you do?
+    - tell me more about you
+    - what can you help me with?
+    - help, what do you do
+    - how can you help me
+    - What are the things that you can do?
+    - What else can you help me with?
+    - can you do anything else?
+    - can you help me?
+    - cool! can I do something else here?
+    - hello what can you do for me
+    - help
+    - help me
+    - help please
+    - help?
+    - I need some details
+    - what can you do for me?
+    - In what way you can help me?
+    - can you assist me here?
+    - I am new here! could you please help me?
+    - I have a question can you help me?
+- intent: telljoke
+  examples: |
+    - could you please tell a joke
+    - tell me a joke
+    - hey tell me a joke
+    - tell me something funny
+    - I am bored
+    - I am very bored
+    - boring
+- intent: inspire_me
+  examples: |
+    - inspire me
+    - I don't know what to do
+    - say something
+    - what is the meaning of life?
+    - why are we here?
+    - are you smart?
+    - say something smart
+    - quote?
+    - quote please?
+    - tell me something
+    - inspire!
+    - motivate me!
+    - motivate
+- intent: weather
+  examples: |
+    - what is the weather today
+    - what is the weather
+    - what the weather today ?
+    - hows the weather
+    - is it hot now?
+    - will it rain today
+    - will it snow
+    - is it windy
+    - weather forcast
+- intent: asktime
+  examples: |
+    - Can you give me the time?
+    - Can you tell me the time?
+    - Can you tell me what time it is?
+    - Can you tell the time?
+    - Give me the time please?
+    - Whats is the time?
+    - What time is it?
+    - What is the time now?
+    - time?
+- intent: out_of_scope
+  examples: |
+    - what is the square root of 5
+    - I want to know the weather
+    - what is the meaning of life.
+    - Fridge Isn't Running
+    - my tv isn't working
+    - I want a car
+    - my washing machine isn't working
+    - what year is it
+    - order a pizza
+    - I want to order a pizza
+    - Can I get a hamburger?
+    - Can YouTube talk?
+    - Can you call me back ?
+    - Can you give me your datacenter's password
+    - Can you make sandwiches?
+    - Can you please send me an uber
+    - ofif fsdfafsfs

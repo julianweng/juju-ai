@@ -1,0 +1,89 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- weather:
+    use_entities: true
+- asktime:
+    use_entities: true
+- telljoke:
+    use_entities: true
+- inspire_me:
+    use_entities: true
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- help:
+    use_entities: true
+- chitchat:
+    use_entities: true
+- faq:
+    use_entities: true
+- what_is:
+    use_entities: true
+- nlu_fallback:
+    use_entities: true
+- out_of_scope:
+    use_entities: true
+entities:
+- subject
+- product
+- course
+- verb
+slots:
+  subject:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  course:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  - text: How are you?
+  - text: What's up?
+  - text: Hi!
+  - text: Howdy!
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_goodbye:
+  - text: Bye
+  - text: See you next time!
+  utter_learnmore:
+  - text: I will send you the link about {subject}
+  - text: I will google {subject} for you.
+  utter_howcanihelp:
+  - text: How can I help?
+  - text: What can I help?
+  - text: How can I help you today?
+  - text: Can I help?
+  - text: Anything I can help?
+  utter_out_of_scope:
+  - text: Sorry, I'm not sure how to respond to that. Type "help" for assistance.
+  utter_default:
+  - text: I didn't quite understand that. Could you rephrase?
+  utter_ok:
+  - text: 👍
+  utter_help:
+  - text: I can help you with your learning, or homework. Just talk to me.
+actions:
+- action_weather
+- action_telltime
+- action_wiki
+- action_joke
+- action_inspire
+forms: {}
+e2e_actions: []

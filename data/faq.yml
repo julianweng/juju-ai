@@ -1,0 +1,34 @@
+version: "2.0"
+nlu:
+- intent: faq/learn
+  examples: |
+    - I want to learn [math](course) ?
+    - how does [Math](course) work?
+    - can you teach me [english](course)?
+    - I want to learn [coding](course)
+    - can you teach me [biology](course)
+    - what is [biology](course)?
+    - want to learn more about [chemistry](course)
+    - what is [math](course)?
+    - I am interested in [physics](subject)
+    - I am interested in [chemiatry](subject)
+    - can I learn [math](course)?
+    - yes I like to learn [math](course)
+- intent: faq/why
+  examples: |
+    - why do [planets](subject) move?
+    - why do [animals](subject) migrate?
+    - why do [doves](subject) live in the cities?
+    - why do we love [playing games](subject)?
+    - why do we [sleep]
+    - what is [sky](subject) blue?
+responses:
+  utter_faq:
+  - text: I can teach you {course}.
+  utter_faq/learn:
+  - text: I can help you with {course}.
+  - text: I am very good at {course}, I can teach you.
+  utter_faq/why:
+  - text: I want to know the answer myself.
+  - text: The {subject} is a complicated subject, I need to do more research on.
+  - text: I don't know the answer. Sorry can't help.

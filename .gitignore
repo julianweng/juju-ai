@@ -1,0 +1,14 @@
+models/
+*/__pycache__/
+events.db*
+rasa.db
+passcode*
+.cache/*
+.local/*
+.conda/*
+.config/*
+.keras/*
+.vscode/*
+.jupyter/*
+.bash_history
+test.py

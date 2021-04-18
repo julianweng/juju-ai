@@ -1,0 +1,21 @@
+version: "2.0"
+
+stories:
+
+- story: say ok after help
+  steps:
+  - action: utter_learnmore
+  - intent: affirm
+  - action: utter_ok
+
+- story: say ok after chitchat
+  steps:
+  - action: utter_chitchat
+  - intent: affirm
+  - action: utter_ok
+
+- story: say ok after what is
+  steps:
+  - action: utter_whatis
+  - intent: affirm
+  - action: utter_ok

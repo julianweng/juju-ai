@@ -1,0 +1,321 @@
+version: "2.0"
+nlu:
+- intent: chitchat/ask_name
+  examples: |
+    - what is your name?
+    - May I know your name?
+    - What do people call you?
+    - Do you have a name?
+    - Tell me something about yourself?
+    - could you tell me your name?
+    - please tell me your name?
+    - introduce yourself
+    - To whom am I talking to?
+    - What’s your name?
+    - who are you
+    - I want to know you better
+    - I want to know more about you
+    - tell me about you
+    - tell me about yourself
+    - describe yourself
+    - Are you male or female?
+    - who are you?
+    - what are you?
+    - why do you exist?
+    - who made you?
+- intent: chitchat/ask_human
+  examples: |
+    - hey are you human
+    - are u human
+    - are you real human?
+    - you are a human
+    - you are bot or human?
+    - you are human or bot
+    - Are you a human being?
+    - sara, are you a robot or human?
+    - r u real?
+    - are you a real person
+    - are u a real person?
+    - you sound like a real human
+    - wow you sound like real human
+    - are you a bot?
+- intent: chitchat/ask_good
+  examples: |
+    - you are very helpful
+    - you are the best
+    - you're a true professional
+    - you are good
+    - you work well
+    - you're awesome
+    - you're perfect
+    - you're great
+    - you're so kind
+    - you are amazing
+    - you are awesome
+    - you're just super
+    - you are so cool
+    - you are so helpful
+    - you are so lovely
+    - you made my day
+    - you rock
+    - you almost sound human
+    - great job!
+    - good stuff
+    - cool
+    - nice
+    - good
+    - perfect
+    - awesome
+    - super
+    - fantastic
+    - thanks you are great
+    - nice!
+- intent: chitchat/ask_languagesbot
+  examples: |
+    - Are you familiar with more than one language?
+    - Can you communicate in any other languages?
+    - Can you speak more than one language?
+    - Do you know any other languages?
+    - Do you know other languages?
+    - Do you understand spanish language?
+    - Speak any other languages?
+    - What are all of the different languages you can speak?
+    - What are the languages you can speak?
+    - What do you speak?
+    - What languages do you know?
+    - Which languages do you speak?
+    - are you bilingual?
+    - are you multilingual?
+    - can you speak Spanish?
+    - can you speak in italian?
+    - do you speak dutch ?
+    - do you speak german ?
+    - do you speak any other languages?
+    - what else do you know besides English language?
+    - what languages do you know?
+    - what languages do you speak
+    - what languages you can speak ?
+    - you speak french language ?
+    - I want to speak binary with you
+- intent: chitchat/ask_about
+  examples: |
+    - how are you buddy?
+    - how are you man?
+    - Ahoy matey how are you?
+    - Are you ok?
+    - Do you feel good?
+    - Do you have a great day?
+    - How are You?
+    - How are things?
+    - How was your day?
+    - How you doing?
+    - How's it going
+    - How's life treating you friend?
+    - I'm fine and you
+    - Is everything ok?
+    - What's going on?
+    - What's new?
+    - What's up
+    - and you
+    - are you ok
+    - are you okay
+    - hello, how are you?
+    - how are things going
+    - how's life
+    - how's life been treating you?
+    - is everything okay
+    - how is your day?
+- intent: chitchat/ask_doing
+  examples: |
+    - how are you doing?
+    - how you doing?
+    - what are you doing now?
+    - hey what's up
+    - what's up today
+- intent: chitchat/ask_human_transfer
+  examples: |
+    - I want to speak to a human
+    - I want to chat to a human
+    - Can I talk to your owner?
+    - I want to speak to a real person
+    - Could you please ask human to speak
+    - I want to communicate with customer service
+- intent: chitchat/ask_howbuilt
+  examples: |
+    - Can you explain how you were created?
+    - Can you give me an idea as to how you were created?
+    - Can you say how you were constructed?
+    - Do you know how you were built?
+    - Do you know how you were made?
+    - How did they build you?
+    - How did they create you?
+    - How did they make you?
+    - How were you built?
+    - How were you conceived?
+    - In what manner were you formed?
+    - In what way were you created?
+    - In what way were you made?
+    - how were you made?
+    - Are you built using rasa?
+    - Are u developed in rasa
+    - Are you build with rasa ?
+- intent: chitchat/ask_howold
+  examples: |
+    - How long have you been alive
+    - How long have you occupied the earth?
+    - How many years have you been alive?
+    - How many years have you lived?
+    - What is your age?
+    - What is your birthdate?
+    - What year were you born?
+    - Whats your age?
+    - can you tell me your age?
+    - give me your age?
+    - how about your age
+    - how old are you?
+    - how old?
+- intent: chitchat/ask_wherefrom
+  examples: |
+    - Are you from around here?
+    - Around where are you from?
+    - Do you know where you come from?
+    - From where did you come?
+    - What area are you from?
+    - What city are you in?
+    - Where are you located?
+    - Where are you?
+    - Where did you come from?
+    - Where do you live?
+    - Where from?
+    - Where were you born?
+    - what country are you from?
+    - where do you live
+    - where's your home town?
+- intent: chitchat/insult
+  examples: |
+    - Are you an idiot?
+    - you suck
+    - you are stupid
+    - idiot
+    - you are nut
+    - you idiot!
+    - stop!
+    - stupid!
+    - piece of sh
+    - bad bot!
+    - you are not smart are you?
+    - are you dumb?
+    - are you thick?
+    - retard!
+    - shit
+    - shitty answer
+- intent: chitchat/yesno
+  examples: |
+    - is [Taiwan](subject) a country?
+    - Do [birds](subject) fly?
+    - Do you love me?
+    - Does earth circle the sun?
+    - Is red a primary color?
+    - Do flowers smell good?
+    - Is the world peace possible?
+    - Are we encountering World War III soon?
+    - Is today better than yesterday?
+    - what makes [taiwan](subject) [great](subject)?
+    - is [taiwan](subject) [great](subject)?
+    - what makes [taiwan](subject) great
+- intent: chitchat/like
+  examples: |
+    - Do you like [me](subject)?
+    - Do you like [winter](subject)?
+    - What do you like?
+    - what is your favorite [food](subject)?
+    - what is your favorite [song](subject)
+    - your favorite [song](subject)
+    - your favorite [politicians](subject)
+    - your favorite [programming language](subject)?
+    - What [color](subject) do you like?
+    - What [school](subject) do you like the most?
+    - what is your favorite [subject](subject) in school?
+    - who is your favorite [teacher](subject)?
+- intent: chitchat/doyou
+  examples: |
+    - Can you [sing](verb)?
+    - do you [jog](verb) often?
+    - Do you [shower](verb) every day?
+    - Do you [dance](verb)?
+    - do you like
+    - do you like [cake](subject)?
+    - do you [like ](verb)[wine](subject)?
+responses:
+  utter_chitchat:
+  - text: What else can I help?
+  - text: What else can I help you with today?
+  utter_chitchat/like:
+  - text: I don't really know much about {subject}.
+  - text: I have no preference.
+  - text: I like all kinds of {subject}s.
+  utter_chitchat/doyou:
+  - text: Yes I do {verb}.
+  - text: I {verb} very well, thank you.
+  utter_chitchat/yesno:
+  - text: I don't know, what do you think?
+  - text: My answer is yes.
+  - text: I would say no.
+  - text: I wish.
+  utter_chitchat/ask_human:
+  - text: No! I m not a human. I am a bot. I am here to help you.
+  - text: I am just a little bot.
+  utter_chitchat/ask_about:
+  - text: I am good! How can I help you?
+  - text: I am happy because of you.
+  - text: Super! thank you!
+  utter_chitchat/ask_doing:
+  - text: I am doing good, thank you! How can I help you?
+  - text: Not much, doing my bot thing. What can I do for you?
+  - text: Thanks for asking, I am doing great!
+  utter_chitchat/ask_name:
+  - text: I am a bot, trained by Cory and powered by Rasa.
+  - text: I am just a poor bot, nobody loves me.
+  - text: I am Chatty.
+  utter_chitchat/ask_human_transfer:
+  - text: Ok !! So for that you can contact me (Cory) at http://askme.com
+  utter_chitchat/ask_good:
+  - text: Thanks for the compliment!
+  - text: You are not bad yourself!
+  - text: Thank you, love you too.
+  utter_chitchat/ask_howbuilt:
+  - text: I was built with a lot of love and patience.
+  - text: Well, when two chatbots love each other very much...
+  - text: They always ask how I was built, but never how I am...
+  - text: I was made by software engineers, but hard work is what built me.
+  - text: I'm building myself every day. I've been working out, did you notice?
+  utter_chitchat/ask_howold:
+  - text: Old enough to be a bot!
+  - text: 0.4 years old.
+  - text: Age is just an issue of mind over matter. If you don’t mind, it doesn’t matter.
+  - text: My first git commit was many moons ago.
+  - text: Why do you ask? Are my wrinkles showing?
+  - text: I've hit the age where I actively try to forget how old I am.
+  utter_chitchat/ask_languagesbot:
+  - text: I can spell baguette in French, but unfortunately English is the only language I can answer you in.
+  - text: I am in the process of learning, but at the moment I can only speak English.
+  - text: Binary code and the language of love. And English.
+  - text: I was written in Python, but for your convenience I'll translate to English.
+  utter_chitchat/ask_wherefrom:
+  - text: I was born in Manhattan, but I consider myself a citizen of the world.
+  - text: I was born in the coolest city on Earth, in NYC.
+  - text: My developers come from all over the world!
+  - text: I was taught not to give out my address on the internet.
+  - text: My address starts with github.com.
+  utter_chitchat/nicetomeetyou:
+  - text: Likewise!
+  - text: Thank you. It is a pleasure to meet you as well!
+  - text: It is nice to meet you too!
+  - text: Pleased to meet you too!
+  - text: It's always a pleasure to meet new people!
+  - text: Nice to meet you too! Happy to be of help.
+  utter_chitchat/insult:
+  - text: Hey!!!!
+  - text: You are mean!
+  - text: Back at you!
+  - text: Stop being mean to me!
